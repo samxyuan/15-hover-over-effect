@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	width:100%;
+	height:50px;
+	top:0;
+	left:0;
+	background-color: #4D3F38;
+	display: inline-block;
+}
+
+#nav-menu {
+	margin:0 30%;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left:50px;
+}
+
+a {
+	text-decoration: none;
+	color:#FFE3D2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+	display: block;
+	margin:0 15%;
+	font-family: 'Lato', sans-serif;
+}
+
+#row1 {
+	height:200px;
+	padding-top:100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.triangle-up {
+	width:0;
+	height:0;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	border-bottom:150px solid #91786B;
+}
+
+.rotate {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+
+#canvas1 {
+	margin-left: 100px;
+}
+
+#triangle0 {
+	display: inline-block;
+	float: left;
+}
+
+#triangle2 {
+	display: inline-block;
+	float: right;
+}
+
+#triangle1 {
+	display: inline-block;
+	margin:0 10%;
+	position: relative;
+}
+
+#row2 {
+	height:200px;
+	position: relative;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.square {
+	width:200px;
+	height:170px;
+	background-color: #F7847E;
+}
+
+#square0 {
+	display: inline-block;
+	float: left;
+}
+
+#square2 {
+	display: inline-block;
+	float: right;
+}
+
+#square1 {
+	display: inline-block;
+	margin:0 10%;
+	position: relative;
+}
